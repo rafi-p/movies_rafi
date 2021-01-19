@@ -59,4 +59,11 @@
   .content .movie-detail {
     width: 375px;
   }
+  .content .movie-detail .text-detail .tag .tagline {
+    display: none;
+  }
+
+  .content .movie-detail .text-detail .tag p {
+    display: none;
+  }
 }

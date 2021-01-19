@@ -55,7 +55,7 @@ function MovieDetail() {
                   <i class="fas fa-calendar"></i>
                   {dataDetailMovie.release_date}
                 </span>
-                <div>|</div>
+                <p>|</p>
                 <span className="tagline">{dataDetailMovie.tagline}</span>
               </div>
 
