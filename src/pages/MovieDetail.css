@@ -1,0 +1,62 @@
+.content .movie-detail {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin-top: 10px;
+}
+
+.content .movie-detail .container-img-detail {
+  height: auto;
+  width: 100%;
+}
+
+.content .movie-detail .container-img-detail img {
+  border-radius: 30px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.content .movie-detail .text-detail {
+  padding: 1rem 2.5rem 4rem 2.5rem;
+}
+
+.content .movie-detail .text-detail h1 {
+  margin-bottom: 0.2 rem;
+}
+
+.content .movie-detail .text-detail .tag {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.content .movie-detail .text-detail .tag .realese-date {
+  font-size: 12px;
+  margin-right: 10px;
+}
+.content .movie-detail .text-detail .tag .realese-date i {
+  margin-right: 2px;
+}
+
+.content .movie-detail .text-detail .tag .tagline {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.content .movie-detail .text-detail .tag .overview {
+  font-size: 14px;
+}
+
+.content .movie-detail .text-detail .tag .overview span {
+  text-align: justify;
+}
+
+@media (max-width: 991px) {
+  .content .movie-detail {
+    width: 375px;
+  }
+}

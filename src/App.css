@@ -1,0 +1,37 @@
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  /* text-decoration: none; */
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+nav h5 {
+  position: relative;
+  font-size: 15px;
+}
+nav .link {
+  position: relative;
+  display: flex;
+}
+
+nav .link a i {
+  margin: 0px 5px;
+}
+
+@media (max-width: 991px) {
+  nav {
+    padding: 20px 20px;
+  }
+}
